@@ -1,0 +1,30 @@
+# Ignore dataset files
+*.csv
+*.tsv
+*.xlsx
+*.json
+
+# Ignore dataset folders if used
+data/
+dataset/
+datasets/
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode and compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
